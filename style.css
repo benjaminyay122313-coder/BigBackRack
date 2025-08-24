@@ -1,0 +1,90 @@
+/* General layout */
+body {
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffefba, #ffffff);
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #ff5722;
+  color: white;
+  padding: 20px 10px;
+  border-bottom: 6px solid #e64a19;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px #b71c1c;
+}
+
+.tagline {
+  margin: 5px 0 0;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Sections */
+main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.register-box, .users-box {
+  background: white;
+  border: 3px solid #ff9800;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+  width: 300px;
+}
+
+.register-box h2, .users-box h2 {
+  margin-top: 0;
+  color: #e65100;
+}
+
+input, button {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ff9800;
+  font-size: 1rem;
+}
+
+button {
+  background: #ff9800;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #e65100;
+}
+
+#usersList p {
+  background: #fff3e0;
+  border: 2px dashed #ff9800;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background: #ffcc80;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 4px solid #ff9800;
+}
